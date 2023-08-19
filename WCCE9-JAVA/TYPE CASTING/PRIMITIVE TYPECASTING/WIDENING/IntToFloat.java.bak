@@ -1,0 +1,15 @@
+//QNO15:-Write A Program To Convert The Int To Float
+class IntToFloat 
+{
+	public static void main(String[] args) 
+	{
+		int a=20;
+		float b=a;
+		System.out.println(b);
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>20.0							*
+*************************************/

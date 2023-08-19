@@ -1,0 +1,43 @@
+class One 
+{
+	public void print1()
+	{
+		System.out.println("One");
+	}
+}
+
+class Two extends One
+{
+	public void print2()
+	{
+		System.out.println("Two");
+	}
+}
+
+class Three extends Two
+{
+	public void print3()
+	{
+		System.out.println("Three");
+	}	
+}
+
+class Driver
+{
+	public static void main(String[] args) 
+	{
+		Three thr=new Three();
+		System.out.println(thr);
+		thr.print3();
+
+		//Upcating
+		Two two=thr;
+
+		//two.print3();CTE
+		two.print2();
+
+		//Upcatsing
+		One one=two;
+		one.print1();
+	}
+}

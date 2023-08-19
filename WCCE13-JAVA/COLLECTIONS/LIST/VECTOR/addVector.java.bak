@@ -1,0 +1,16 @@
+import java.util.Vector;
+
+class addVector 
+{
+	public static void main(String[] args) 
+	{
+		Vector oV=new Vector();
+
+		oV.add("Nike");
+		oV.add(24);
+		oV.add('A');
+		oV.add(true);
+
+		System.out.println(oV);
+	}
+}

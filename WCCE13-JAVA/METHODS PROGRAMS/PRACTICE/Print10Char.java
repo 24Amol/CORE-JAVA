@@ -1,0 +1,15 @@
+class Print10Char 
+{
+	public static void Print10Char(char ch)
+	{
+		for (System.out.println("");ch<='J';System.out.println(""))
+		{
+			System.out.println(ch);
+			ch++;
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Print10Char('A');
+	}
+}

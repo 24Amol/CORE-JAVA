@@ -1,0 +1,12 @@
+//QNO1:-Explain Widening Process
+
+//Smallest
+//Datatype							
+byte								|
+									|
+									|
+char =======>>> int =======> long =======> float =======> double
+									|
+									|
+short		 /* Integer Data*/		|		/* float Data*/
+									|

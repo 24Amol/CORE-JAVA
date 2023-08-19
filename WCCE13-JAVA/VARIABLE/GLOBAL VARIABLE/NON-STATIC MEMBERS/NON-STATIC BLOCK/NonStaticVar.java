@@ -1,0 +1,20 @@
+class NonStaticVar 
+{
+	int a=10;
+	static int b=2;
+	//NonStaticVar oNSV1= new NonStaticVar();
+	{
+		this.b=22;
+		System.out.println(this.b);
+		
+	}
+	public static void main(String[] args) 
+	{
+		NonStaticVar oNSV = new NonStaticVar();
+		//oNSV.b=100;
+		//System.out.println(oNSV.oNSV1.a);
+		System.out.println(oNSV.a);
+
+		//System.out.println(oNSV1.a);
+	}
+}

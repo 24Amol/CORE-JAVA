@@ -1,0 +1,11 @@
+class FindMaximumThreeNum 
+{
+	public static void main(String[] args) 
+	{
+		int a=3;
+		int b=5;
+		int c=11;
+		int res=a>b && a>c?"A Is Greater":b>a && b>c?"B Is Greater":"C Is Greater";
+		System.out.println(res);
+	}
+}

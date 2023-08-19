@@ -1,0 +1,15 @@
+//QNO12:-Write A Program To Convert The Char To Int
+class CharToLong 
+{
+	public static void main(String[] args) 
+	{
+		char a='a';
+		long b=a;
+		System.out.println(b);
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>97								*
+*************************************/

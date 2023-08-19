@@ -1,0 +1,18 @@
+class P8 
+{
+	
+
+	int a=10;
+
+	public void display()
+	{
+		P8 ob=new P8();
+		System.out.println(oB);
+	}
+
+	public static void main(String[] args) 
+	{
+		P8 ob1=new P8();
+		ob1.display();
+	}
+}

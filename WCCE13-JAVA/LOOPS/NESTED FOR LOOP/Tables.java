@@ -1,0 +1,16 @@
+class Tables
+{
+	public static void main(String[] args) 
+	{
+		int num=1;
+		for (int r=1;r<=10 ;r++)
+		{
+			for (int c=1;c<=10 ;c++ )
+			{
+				System.out.print(" "+" "+" "+c*r+" "+" "+" "+" "+" ");
+				num++;
+			}
+			System.out.println();
+		}
+	}
+}

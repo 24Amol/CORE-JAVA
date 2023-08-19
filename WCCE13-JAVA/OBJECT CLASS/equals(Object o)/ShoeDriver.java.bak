@@ -1,0 +1,65 @@
+class Shoe
+{
+	String Name;
+	int Size;
+
+	Shoe(String name,int size)
+	{
+		this.Name=name;
+		this.Size=size;
+	}
+	@Override
+	public String toString()
+	{
+		return "Name:"+Name+"Size:"+Size;
+	}
+	@Override
+	public int hashCode()
+	{
+		return Size;
+	}
+	@Override
+	public boolean equals(Object o)//Upcasting
+	{
+		Shoe temp=(Shoe)o;//Downcasting
+
+		if (this.Name==temp.Name && this.Size==temp.Size)
+		{
+			return true;
+		}
+		return false;
+	}
+
+}
+class ShoeDriver
+{
+	public static void main(String[] args) 
+	{
+		Shoe oS=new Shoe("Nike",9);
+		Shoe oS1=new Shoe("Nike",9);
+
+		System.out.println(oS);
+		System.out.println(oS1);
+	
+		System.out.println(oS.equals(oS1));
+
+		if (oS.hashCode()==oS1.hashCode())
+		{
+			System.out.println("The Shoes Size is Same");
+
+			if (oS.equals(oS1))
+			{
+				System.out.println("The Shoes Also Are Same Brand");
+			}
+			else
+			{
+				System.out.println("But Shoes Are Different");
+			}
+		}
+		else
+		{
+			System.out.println("The Shoes Are Different");
+		}
+	}
+}
+

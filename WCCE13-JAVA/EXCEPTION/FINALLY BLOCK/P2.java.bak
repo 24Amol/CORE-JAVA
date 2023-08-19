@@ -1,0 +1,16 @@
+import java.io.*;
+class P2 
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+		FileOutputStream f=new FileOutputStream("D://New folder//ABC.txt");
+
+		}
+		finally{
+				System.out.println("File Is Created");
+		}
+
+	}
+}

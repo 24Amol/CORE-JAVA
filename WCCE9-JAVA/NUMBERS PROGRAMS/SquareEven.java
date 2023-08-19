@@ -1,0 +1,18 @@
+//QNO13:-Write A Program To Print The Sqaure Of Even Numbers
+class SquareEven
+{
+	public static void main(String[] args) 
+	{
+		int num=2;
+		if (num%2==0)
+		{
+			int Square=num*num;
+			System.out.println("Square Of Even Number:-"+Square);
+		}
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>Square Of Even Number:-4					*
+*************************************************/

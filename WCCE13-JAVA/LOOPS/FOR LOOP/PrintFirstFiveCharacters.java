@@ -1,0 +1,22 @@
+//QNO=2:-Write A Program To Print First Five Chracaters Using For Loop
+
+class PrintFirstFiveCharacters
+{
+	public static void main(String[] args) 
+	{
+		char ch;
+		for (ch='a';ch<='e' ;ch++)
+		{
+			System.out.println(ch);
+		}
+	}
+}
+/********************************************
+--------------->>>>>OUTPUT>>>>--------------*
+*********************************************
+-->>a										*
+-->>b										*
+-->>c										*
+-->>d										*
+-->>e										*
+*********************************************/

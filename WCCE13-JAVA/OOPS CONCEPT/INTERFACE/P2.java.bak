@@ -1,0 +1,16 @@
+interface P1
+{
+
+}
+interface P2
+{
+
+}
+class P3 implements P1,P2
+{
+		public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+
+}

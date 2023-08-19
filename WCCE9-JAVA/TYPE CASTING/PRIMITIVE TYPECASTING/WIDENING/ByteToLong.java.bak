@@ -1,0 +1,15 @@
+//QNO1:-Write A Program To Convert The Byte To Long
+class ByteToLong 
+{
+	public static void main(String[] args) 
+	{
+		byte a=97;
+		long b=a;
+		System.out.println(b);
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>97								*
+*************************************/

@@ -1,0 +1,18 @@
+class InitaizeNonStaticVaraible 
+{
+	int a;
+	public static void main(String[] args) 
+	{
+		InitaizeNonStaticVaraible obj=new InitaizeNonStaticVaraible();
+		System.out.println(obj.a);
+		obj.a=11;
+		System.out.println(obj.a);
+		obj.a=133;
+		System.out.println(obj.a);
+
+		InitaizeNonStaticVaraible obj1=new InitaizeNonStaticVaraible();
+		System.out.println(obj1.a);
+		obj1.a=13;
+		System.out.println(obj1.a);
+	}
+}

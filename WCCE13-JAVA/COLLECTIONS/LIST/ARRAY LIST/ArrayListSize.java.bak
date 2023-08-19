@@ -1,0 +1,19 @@
+
+import java.util.ArrayList;
+
+class ArrayListSize 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList oA=new ArrayList();
+		
+		System.out.println(oA);
+
+		oA.add("Apple");
+		oA.add("Ice-Cream");
+		oA.add("Mango");
+			
+		System.out.println(oA.size());
+		
+	}
+}

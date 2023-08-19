@@ -1,0 +1,10 @@
+class StringToFloat 
+{
+	public static void main(String[] args) 
+	{
+		String obj="400";
+		float f=Float.parseFloat(obj);
+		System.out.pritnln(obj);
+		System.out.println(f);
+	}
+}

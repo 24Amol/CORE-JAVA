@@ -1,0 +1,20 @@
+//QNO3:-Write A Program To Find First Digit Of Given Number
+
+class FindFirstDigit
+{
+	public static void main(String[] args) 
+	{
+		int n=74, first;
+		first=n;
+		while (first>=10)
+		{
+			first/=10;
+		}
+		System.out.println(first);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>7											*
+*************************************************/

@@ -1,0 +1,20 @@
+//QNO5:How Many Ways We CAn Access The Static Variable
+
+//Answer:-WE Can Access The Static Varible Into Two Ways:-
+//1:-Directly By Its Name
+//2:-Class Name As A Refernce
+class StaticVariablAccess 
+{
+	static int n=10;
+	public static void main(String[] args) 
+	{
+		System.out.println(n);//Directly By Variable Name
+		System.out.println(StaticVariablAccess.n);//Class Name As A Reference
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>10											*
+-->>10											*
+*************************************************/

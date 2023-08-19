@@ -1,0 +1,13 @@
+class ReverseFiveCharacter 
+{
+	public static void main(String[] args) 
+	{
+		char ch='e';
+
+		while (ch>='a')
+		{
+			System.out.println(ch);
+			ch--;
+		}
+	}
+}

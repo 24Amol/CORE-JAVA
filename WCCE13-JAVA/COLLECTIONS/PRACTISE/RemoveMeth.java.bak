@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+class RemoveMeth
+{
+	public static void main(String[] args) 
+	{
+		ArrayList obj=new ArrayList();
+
+		obj.add(123);
+		obj.add('A');
+		obj.add(true);
+		obj.add(false);
+		
+		System.out.println(obj);
+
+		obj.remove(1);
+
+		System.out.println(obj);
+
+
+		obj.remove(false);
+
+		System.out.println(obj);
+
+	}
+}

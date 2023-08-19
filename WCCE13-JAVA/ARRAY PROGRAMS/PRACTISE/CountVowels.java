@@ -1,0 +1,17 @@
+class CountVowels 
+{
+	public static void main(String[] args) 
+	{
+		char[] ch={'A','a','f','e','h','i'};
+		int Count=0;
+
+		for (int i=0;i<ch.length;i++)
+		{
+			if (ch[i]=='a'||ch[i]=='e'||ch[i]=='i'||ch[i]=='o'||ch[i]=='u')
+			{
+				Count++;
+			}
+		}
+		System.out.println("The Number of Vowels Is:-"+Count);
+	}
+}

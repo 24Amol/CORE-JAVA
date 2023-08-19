@@ -1,0 +1,27 @@
+class MaxFourNum
+{
+	public static void main(String[] args) 
+	{
+		int a=444;
+		int b=291;
+		int c=111;
+		int d=15;
+
+		if (a>b && a>c && a>d)
+		{
+			System.out.println(a+" : A is Greater");
+		}
+		else if (b>c && b>d)
+		{
+			System.out.println(b+" : B is Greater");
+		}
+		else if (c>d)
+		{
+			System.out.println(c+" : C Is Greater");
+		}
+		else
+		{
+			System.out.println(d+" : D is Greater");
+		}
+	}
+}

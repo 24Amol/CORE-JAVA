@@ -1,0 +1,14 @@
+//QNO4:-Write A Program To Check Given Number Is Positive Or Negative Number Using Conditional Operator
+class ConditionalPosNegNum 
+{
+	public static void main(String[] args) 
+	{
+		int a=5;
+		System.out.println(a>0?"POSITIVE":"NEGATIVE");
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>B Is Greater								*
+*************************************************/

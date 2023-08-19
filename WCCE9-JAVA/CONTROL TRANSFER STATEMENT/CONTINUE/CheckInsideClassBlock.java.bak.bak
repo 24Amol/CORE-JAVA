@@ -1,0 +1,17 @@
+//QNO2:-Write A Program To Check The Continue Keyword Use Inside The Class Block
+
+class CheckInsideClassBlock
+{	
+	continue;
+
+	public static void main(String[] args) 
+	{		
+		System.out.println("Hello World");
+	}
+}
+
+/*********************************OUTPUT**********************************/
+//CheckInsideMainMethodBreak.java:9: error: break outside switch or loop *
+//             continue;												 *
+//				
+/*************************************************************************/

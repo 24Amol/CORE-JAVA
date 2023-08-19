@@ -1,0 +1,20 @@
+//QNO1:-Write A program to Find Cube Of Given Number
+
+class FindCubeGivenNum
+{
+	public static void main(String[] args) 
+	{	
+		int num=4;
+		int cube=1;
+		for (int i=1;i<=3;i++)
+		{
+			cube*=num;
+		}
+		System.out.println(cube);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>64											*
+*************************************************/

@@ -1,0 +1,12 @@
+class P3
+{
+	public static void main(String[] args) 
+	{
+			if (true)
+			System.out.println("Hello");
+			System.out.println("Hi");
+			System.out.println("Bye");
+			System.out.println("GoodBye");
+			System.out.println("Hye");
+	}
+}

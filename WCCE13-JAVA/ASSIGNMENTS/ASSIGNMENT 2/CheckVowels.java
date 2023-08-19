@@ -1,0 +1,17 @@
+class CheckVowels 
+{
+	public static void main(String[] args) 
+	{
+		String str="i love Maharastra";
+
+		System.out.println(str);
+
+		for (int r=0;r<str.length();r++)
+		{
+			if (str.charAt(r)=='a' || str.charAt(r)=='e' || str.charAt(r)=='i' ||str.charAt(r)=='o' || str.charAt(r)=='u')
+			{
+				System.out.println("The Vowels Are:"+str.charAt(r));
+			}
+		}
+	}
+}

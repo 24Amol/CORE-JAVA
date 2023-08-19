@@ -1,0 +1,27 @@
+//QNO14:-Write A Program TO Print First Five Characters
+class MethodPrintFirstFiveChar
+{
+
+	public static void character(char a,char e)
+	{
+		while(a<=e)
+		{
+			System.out.println(a);
+			a++;
+		}
+	
+	}
+	public static void main(String[] args) 
+	{
+		character('a','e');
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>a											*
+-->>b											*
+-->>c											*
+-->>d											*
+-->>e											*
+*************************************************/

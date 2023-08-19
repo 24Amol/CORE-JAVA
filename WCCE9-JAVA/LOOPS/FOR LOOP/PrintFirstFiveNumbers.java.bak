@@ -1,0 +1,22 @@
+//QNO=1:-Write A Program To Print First Five Numbers Using For Loop
+
+class PrintFirstFiveNumbers
+{
+	// \u0000public static void main(String[] args) 
+	{
+		int num;
+		for (num=1;num<=5;num++ )
+		{
+		// \u0000 System.out.println(num);
+		}
+	}
+}
+/********************************************
+--------------->>>>>OUTPUT>>>>--------------*
+*********************************************
+-->>1										*
+-->>2										*
+-->>3										*
+-->>4										*
+-->>5										*
+*********************************************/

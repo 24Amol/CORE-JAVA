@@ -1,0 +1,19 @@
+//QNO2=Write A Program To Print Check Vowels Using The If Else Statements
+class CheckVowels
+{
+	public static void main(String[] args) 
+	{	
+		char ch='a';
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+		{
+			System.out.println(ch+":-Given Character Is Vowel");
+		}
+		else
+		{
+			System.out.println(ch+":-Given Character Is Not Vowel");
+		}
+	}
+}
+/***********************OUTPUT***********************/
+//a:-Given Character Is Vowel						*
+/****************************************************/

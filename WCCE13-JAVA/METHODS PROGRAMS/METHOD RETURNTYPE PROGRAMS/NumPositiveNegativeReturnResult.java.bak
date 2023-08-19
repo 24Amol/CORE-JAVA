@@ -1,0 +1,18 @@
+//QNO11=Design A Method To check The Given Number Is P0sitive Or Negative
+class NumPositiveNegativeReturnResult
+{	
+	public static String numPosNeg(int num)
+	{		
+		String res=num>0?"+Ve":"-Ve";
+		return res;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println(numPosNeg(-5));
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>-Ve											*
+*************************************************/

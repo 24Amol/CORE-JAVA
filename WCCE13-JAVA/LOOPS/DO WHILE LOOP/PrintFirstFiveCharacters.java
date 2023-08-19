@@ -1,0 +1,25 @@
+//QNO=2:-Write A Program to Print First Five Characters
+class PrintFirstFiveCharacters 
+{
+	public static void main(String[] args) 
+	{
+		char ch='a';
+		System.out.println("The First Five Characters Are:-");
+		do
+		{
+			System.out.println(ch);
+			ch++;
+		}
+		while (ch<'f');
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+The First Five Characters Are:-		*
+-->>a								*
+-->>b								*
+-->>c								*
+-->>d								*
+-->>e								*
+*************************************/

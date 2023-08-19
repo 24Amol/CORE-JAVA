@@ -1,0 +1,25 @@
+class Signal 
+{
+	public static void main(String[] args) 
+	{
+		String str="Stop";
+
+		switch (str)
+		{
+			case "Start" :{
+				System.out.println(str + " : The Signal Is Green");
+			break;
+			}
+
+			case "Stop": {
+				System.out.println(str + " : The Signal Is Red");
+				break;
+			}
+
+			case "Walk" :{
+				System.out.println(str + " : The Signal Is Yellow");
+				break;
+			}
+		}					
+	}
+}

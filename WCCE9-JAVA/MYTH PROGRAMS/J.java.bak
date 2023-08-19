@@ -1,0 +1,2 @@
+public class J{static {System.out.print("JAVA HOW TO");
+Sysytem.exit(0);}}

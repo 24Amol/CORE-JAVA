@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+class ArrayListClass 
+{
+	public static void main(String[] args) 
+	{
+		//Creating Object For ArrayList
+
+		ArrayList oA=new ArrayList();
+		System.out.println(oA);
+
+		ArrayList oA1=new ArrayList();
+		System.out.println(oA1);
+	}
+}

@@ -1,0 +1,19 @@
+class P2
+{
+	int n=700;
+
+	public int hashCode()
+	{
+		return n++;
+	}
+
+	public static void main(String[] args) 
+	{
+		P2 oP1=new P2();
+		P2 oP2=new P2();
+
+		System.out.println(oP1.hashCode());
+		System.out.println(oP1.hashCode());
+		System.out.println(oP2.hashCode());
+	}
+}

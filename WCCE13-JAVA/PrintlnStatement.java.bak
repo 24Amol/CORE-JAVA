@@ -1,0 +1,18 @@
+//QNO2:-Write A Program For Understanding The Working Of Println Statement
+//Working Of Println Statement
+class PrintlnStatement 
+{
+	public static void min(String[] args) 
+	{
+		System.out.println();//It Will Print Empty Space & Moving The Cursor To Next Line
+		System.out.println(2);//It Will Print 2 & Moving The Cursor To next Line
+	}//It Takes 3 Lines Of Command Line
+}
+
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>_								*
+-->>2								*
+-->>_								*
+*************************************/

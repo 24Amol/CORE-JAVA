@@ -1,0 +1,40 @@
+class Animal 
+{
+	public void print()
+	{
+		System.out.println("Anima()");
+	}
+}
+
+class Dog extends Animal
+{
+	public void nature1()
+	{
+		System.out.println("Barking");
+	}
+}
+
+class Cat extends Animal
+{
+	public void nature2()
+	{
+		System.out.println("Meooe Moow");
+	}
+}
+
+class Demo 
+{
+	public static void main(String[] args) 
+	{
+		Cat oC=new Cat();
+		System.out.println(oC);
+		oC.nature();
+
+
+		//Upacasting From Cat to Animal
+		Animal oA=oC;
+		System.out.println(oA);
+		oA
+
+	}
+}

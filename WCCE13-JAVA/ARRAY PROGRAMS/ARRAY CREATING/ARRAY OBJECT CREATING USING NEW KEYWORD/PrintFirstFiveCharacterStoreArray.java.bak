@@ -1,0 +1,16 @@
+//QNO3=Write A Program Print First Five Character And Store Into Array
+class PrintFirstFiveCharacterStoreArray 
+{
+	public static void main(String[] args) 
+	{
+		char[] n=new char[5];
+
+		char ch='a';
+
+		for(int index=0;index<n.length;index++)
+		{
+			n[index]=ch++;
+			System.out.println(n[index]);	
+		}	
+	}
+}

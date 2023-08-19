@@ -1,0 +1,12 @@
+class School 
+{
+	static String School_Name="Java School";
+
+	public static void main(String[] args) 
+	{
+		Student oS=new Student("Amol","24/04/2000",45000);
+		System.out.println(oS.getStFee());
+		oS.setStFee(1000);//Setter Method
+		System.out.println(oS.getStFee());//Getter Method
+	}
+}

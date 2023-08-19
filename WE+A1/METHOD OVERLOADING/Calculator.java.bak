@@ -1,0 +1,76 @@
+import java.util.Scanner;
+class Calculator
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("Menu");
+		System.out.println("Enter Your Choice:-\n 1.ADDITION \n 2.SUBTRACTION \n 3.MULTIPPLICATION \n 4.DIVISION");
+		int Choice=sc.nextInt();
+		
+
+		switch (Choice)
+		{
+			case 1:{
+
+				double []arr=value();
+				addition(arr[0],arr[1]);
+				break;
+			}
+			case 2:{
+				double []arr=value();
+				subtraction(arr[0],arr[1]);
+				break;
+			}
+			case 3:{
+				double []arr=value();
+				Multiplication(arr[0],arr[1]);
+				break;
+			}
+			case 4:{
+				double []arr=value();
+				division(arr[0],arr[1]);
+				break;
+			}
+			default:
+				System.out.println("You Have Entered The Wrong Choice");
+		}
+	}
+
+	public static void addition(double num1,double num2)
+	{
+		double Add=num1+num2;
+		System.out.println("The Addition Is:-"+Add);
+	}
+
+	public static void subtraction(double num1,double num2)
+	{
+		double Sub=num1-num2;
+		System.out.println("The Subtraction Is:-"+Sub);
+	}
+	public static void Multiplication(double num1,double num2)
+	{
+		double Mul=num1*num2;
+		System.out.println("The Multiplication Is:-"+Mul);
+	}
+	public static void division(double num1,double num2)
+	{
+		double Div=num1/num2;
+		System.out.println("The Addition Is:-"+Div);
+	}
+
+	public static double[] value()
+	{
+		double arr[]=new double[2];
+			
+		System.out.println("Enter The First Number:-");
+		double num1=sc.nextDouble();
+
+		System.out.println("Enter The Second Number:-");
+		double num2=sc.nextDouble();
+		arr[0]=num1;
+		arr[1]=num2;
+		return arr;
+	}
+}

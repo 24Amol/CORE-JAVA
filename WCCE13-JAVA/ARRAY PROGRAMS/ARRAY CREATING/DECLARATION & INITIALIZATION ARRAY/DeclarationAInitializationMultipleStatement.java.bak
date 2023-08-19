@@ -1,0 +1,25 @@
+//QNO2=Declaration And Initialization Array In Clone Multiple Statement
+
+class DeclarationAInitializationMultipleStatement
+{
+	public static void main(String[] args) 
+	{
+		int [] n;
+		n={1,2,3,4,5};//Declaration And Initialization Array Cannot Be Clone In Multiple Statement
+		System.out.println(n);//WE get compile Time Error
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>1								*
+-->>2								*
+-->>3								*
+-->>4								*
+-->>5								*
+-->>6								*
+-->>7								*
+-->>8								*
+-->>9								*
+-->>10								*
+*************************************/

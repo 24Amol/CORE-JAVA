@@ -1,0 +1,32 @@
+//QNO2=Design A Method To Print First 10 Numbers In Reverse Orders
+
+class DesignMethodPrintFirst10NumReverse  
+{
+
+	public static void numbersPrintReverse(int num)
+	{
+		while(num>=1)
+		{
+			System.out.println(num);
+			num--;
+		}
+	}
+	public static void main(String[] args) 
+	{
+		numbersPrintReverse(10);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>10											*
+-->>9											*
+-->>8											*
+-->>7											*
+-->>6											*
+-->>5											*
+-->>4											*
+-->>3											*
+-->>2											*
+-->>1											*
+*************************************************/

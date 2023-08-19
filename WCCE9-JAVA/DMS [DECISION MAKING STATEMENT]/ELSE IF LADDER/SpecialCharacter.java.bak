@@ -1,0 +1,23 @@
+//QNO=4:-Write A Program To Check Wheather Given character Is Special Character Or Not
+class SpecialCharacter 
+{
+	public static void main(String[] args) 
+	{
+		char ch='$';
+		if ((ch>='a' && ch<='z') || (ch>='A' && ch<='z'))
+		{
+			System.out.println(ch + " Is A Alpahabet.");
+		}
+		else if (ch>='0' && ch<='9')
+		{
+			System.out.println(ch + " Is A Digit.");
+		}
+		else
+		{
+			System.out.println(ch + ":- Is A Special character");
+		}
+	}
+}
+/***********************OUTPUT***********************/
+//$:- Is A Special character						*
+/****************************************************/

@@ -1,0 +1,28 @@
+//QNO1:-Write A program to Find Cube Of Given Number
+
+class FindCubeEvenNum
+{
+	public static void main(String[] args) 
+	{	
+		int num=3;
+		int cube=1;
+		if (num%2==0)
+		{
+			for (int i=1;i<=3;i++)
+			{
+				cube*=num;
+			}
+			System.out.println(cube);
+		}
+		else
+		{
+			System.out.println("Number Is Odd:-"+num);
+		}
+		
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>64											*
+*************************************************/

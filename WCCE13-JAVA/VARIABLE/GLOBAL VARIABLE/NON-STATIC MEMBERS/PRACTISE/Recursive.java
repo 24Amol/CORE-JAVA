@@ -1,0 +1,18 @@
+class Recursive 
+{
+	public void display(int a)
+	{
+		System.out.println(a);
+		if (a==5)
+		{
+			return;
+		}
+		a++;
+		display(a);
+	}
+	public static void main(String[] args) 
+	{
+		Recursive ob=new Recursive();
+		ob.display(0);
+	}
+}

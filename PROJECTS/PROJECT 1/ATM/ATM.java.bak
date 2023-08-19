@@ -1,0 +1,5 @@
+interface ATM
+{
+	void withdraw();
+	static void checkBalance();
+}

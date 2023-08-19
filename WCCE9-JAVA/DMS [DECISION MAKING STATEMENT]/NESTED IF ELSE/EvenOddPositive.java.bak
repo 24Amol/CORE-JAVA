@@ -1,0 +1,27 @@
+//Write A Program To Find Even & Odd Number If The Number Is Positive
+
+class EvenOddPositive 
+{
+	public static void main(String[] args) 
+	{	
+		int num=-5;
+		if (num > 0)
+		{
+			if(num%2==0)
+			{
+				System.out.println("Number Is Even:- " + num);
+			}
+			else
+			{
+				System.out.println("Number Is Odd:- " + num);
+			}
+		}
+		else
+		{
+			System.out.println("Given Number Is Negative: " + num);
+		}
+	}
+}
+/***********************OUTPUT***********************/
+//Given Number Is Negative: -5						*
+/****************************************************/

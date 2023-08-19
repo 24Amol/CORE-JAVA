@@ -1,0 +1,9 @@
+class DecrationInitilizationVaraibles 
+{//Global Block
+	public static void main(String[] args) 
+	{//Local Block
+		int w;//Declaration of Variable
+		w=100;//Initialization Of a Value
+		System.out.println(w);
+	}
+}

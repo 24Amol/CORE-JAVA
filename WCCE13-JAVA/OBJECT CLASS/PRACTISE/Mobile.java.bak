@@ -1,0 +1,67 @@
+class Mobile
+{
+	int Ram;
+	int Price;
+	String Name;
+
+	Mobile(int ram,String name,int price)
+	{
+		this.Ram=ram;
+		this.Name=name;
+		this.Price=price;
+	}
+
+	@Override
+	public String toString()
+	{
+		return "Ram : "+Ram+"\nName : "+Name+"\nPrice : "+Price;
+	}
+
+	@Override 
+	public boolean equals(Object o)
+	{
+		Mobile temp=(Mobile)o;
+		if (this.Name==temp.Name)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public int hashCode()
+	{
+		return Price;
+	}
+	public static void main(String[] args) 
+	{
+		Mobile mobile1=new Mobile(6,"PocoX3",13500);
+		Mobile mobile2=new Mobile(8,"PocoX3",15500);
+
+		System.out.println("************* Availables Mobiles *****************");
+		System.out.println(mobile1);
+		System.out.println();
+		System.out.println(mobile2);
+
+
+		if (mobile1.hashCode()!=mobile2.hashCode())
+		{
+			System.out.println("Both Mobiles Price Is Same");
+
+			if (mobile1.equals(mobile2))
+			{
+				System.out.println("Both Mobiles Are Same");
+			}
+			else
+			{
+				System.out.println("Both Mobiles Are Not Same");
+			}
+		}
+		else
+		{
+			System.out.println("Both Mobiles Prices Are Different");
+		}
+
+		
+	}
+}

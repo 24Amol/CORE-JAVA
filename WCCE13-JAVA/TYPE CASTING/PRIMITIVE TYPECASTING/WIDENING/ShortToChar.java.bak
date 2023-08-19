@@ -1,0 +1,15 @@
+//QNO17:-Write A Program To Convert The Short To Char
+class ShortToChar 
+{
+	public static void main(String[] args) 
+	{
+		short a=97;
+		char b=a;
+		System.out.println(b);
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>a								*
+*************************************/

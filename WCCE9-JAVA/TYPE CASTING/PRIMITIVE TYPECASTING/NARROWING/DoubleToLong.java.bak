@@ -1,0 +1,15 @@
+//QNO15:-Write A Program To Convert The Double To Long
+class DoubleToLong 
+{
+	public static void main(String[] args) 
+	{
+		double a=203;
+		long b=(long)a;
+		System.out.println(b);
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>203								*
+*************************************/

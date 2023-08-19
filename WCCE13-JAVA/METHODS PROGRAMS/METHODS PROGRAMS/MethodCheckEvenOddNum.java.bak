@@ -1,0 +1,25 @@
+//QNO9:-Design A Method To Chack Given Number Is Odd Or Even
+
+class MethodCheckEvenOddNum
+{
+	public static void evenOdd(int num)
+	{
+		if(num%2==0)
+		{
+			System.out.println(num+":-This Is Even Number");
+		}
+		else
+		{
+			System.out.println(num+":-This Is Odd Number");
+		}
+	}
+	public static void main(String[] args) 
+	{
+		evenOdd(4);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>4:-This Is Even Number						*
+*************************************************/

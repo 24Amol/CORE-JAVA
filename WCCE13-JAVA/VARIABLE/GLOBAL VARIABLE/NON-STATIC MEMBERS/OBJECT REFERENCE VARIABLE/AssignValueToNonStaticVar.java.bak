@@ -1,0 +1,18 @@
+class AssignValueToNonStaticVar 
+{
+	int a;
+
+	void demo()
+	{
+		a=20;
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) 
+	{
+		AssignValueToNonStaticVar obj =new AssignValueToNonStaticVar();
+		System.out.println(obj.a);
+		obj.a=10;
+		System.out.println(obj.a);
+	}
+}

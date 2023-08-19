@@ -1,0 +1,33 @@
+//QNO2:-Write A Program To Check The Continue Keyword Use Inside The Loop
+
+class CheckInsideLoopConitue
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Start");
+		int a=0;
+
+		while (a<5)
+		{
+			System.out.println("Hi");
+			
+			if(a==2)
+			{
+				System.out.println("GoodBye");
+				continue;//We Can't Use break Inside The Loop
+				a++;//We Get Compile Time Error
+				
+			}
+			System.out.println("Bye");
+			a++;
+		}
+		System.out.println("Main End");
+	}
+}
+
+/********************************OUTPUT****************************/
+//CheckInsideLoopConitue.java:18: error: unreachable statement	  *
+//                                a++;//We Get Compile Time Error *
+//                                ^							      *
+//1 error						 *								  *
+/******************************************************************/

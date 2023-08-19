@@ -1,0 +1,11 @@
+class P1 
+{
+	public static void main(String[] args) 
+	{
+		int a=2;
+		int b= a++ + a++ - a++ - a++;
+		//     2 +  3 -4 - 6
+		boolean res=b>0;
+		System.out.println(res);
+	}
+}

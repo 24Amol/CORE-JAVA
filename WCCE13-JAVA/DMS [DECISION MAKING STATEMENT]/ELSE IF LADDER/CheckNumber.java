@@ -1,0 +1,24 @@
+class CheckNumber 
+{
+	public static void main(String[] args) 
+	{
+		int num=4;
+
+		if (num%3==0 && num%7==0)
+		{
+			System.out.println("Hi");
+		}
+		else if (num%2==0 && num%7==0)
+		{
+			System.out.println("Bye");
+		}
+		else if (num%2==0)
+		{
+			System.out.println("GoodBye");
+		}
+		else
+		{
+			System.out.println("Block");
+		}
+	}
+}

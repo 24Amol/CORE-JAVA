@@ -1,0 +1,17 @@
+//QNO5:-Write A Program To Check The Break Keyword Use Inside The Main Method
+
+class CheckInsideMainMethodBreak
+{
+	public static void main(String[] args) 
+	{		
+		System.out.println("Hello World");
+		break;//We Can't Use Break Keyword Inside The Main Method
+		//We Only Use The Break Keyword In The Switch Or Loops At The End Of The Loop
+		//We Get Compile Time Error Called /*{break outside switch or loop}*/
+	}
+}
+
+/*********************************OUTPUT**********************************/
+//CheckInsideMainMethodBreak.java:9: error: break outside switch or loop *
+//             break;													 *
+/*************************************************************************/

@@ -1,0 +1,9 @@
+class CharToByte 
+{
+	public static void main(String[] args) 
+	{
+		char ch='a';
+		short b=ch;
+		System.out.println(b);
+	}
+}

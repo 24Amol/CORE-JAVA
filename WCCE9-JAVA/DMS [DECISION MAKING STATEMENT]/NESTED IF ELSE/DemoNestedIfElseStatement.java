@@ -1,0 +1,22 @@
+//QNO1=Write A Demo Program For Nested If Else Statement
+
+/*And If Condition Inside Another if Is Called As Nested If Statement */
+class DemoNestedIfElseStatement
+{
+
+	public static void main(String[] args) 
+	{
+		if (true)
+		{
+			if (true)
+			{
+				System.out.println("Hi");
+			}
+		}
+		System.out.println("Hello World!");
+	}
+}
+/***********************OUTPUT***********************/
+//Hi												*
+//Hello World!										*
+/****************************************************/

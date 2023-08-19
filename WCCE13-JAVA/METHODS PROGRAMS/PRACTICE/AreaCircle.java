@@ -1,0 +1,12 @@
+class AreaCircle 
+{
+	public static void findAreaCir(double pi,int r)
+	{
+		double dArea=pi*r*r;
+		System.out.println(dArea);
+	}
+	public static void main(String[] args) 
+	{
+		findAreaCir(3.14,2);
+	}
+}

@@ -1,0 +1,27 @@
+class Student 
+{
+	String strName;
+	String strDob;
+	double strFee;
+
+	public void display()
+	{
+		System.out.println(this.strName+": Is Good In Java");
+	}
+
+	public void getData()
+	{
+		System.out.println(this.strName);
+		System.out.println(this.strDob);
+		System.out.println(this.strFee);
+	}
+
+	Student(String name,String dob,double fee)
+	{
+		this.strName=name;
+		this.strDob=dob;
+		this.strFee=fee;
+	}
+}
+
+

@@ -1,0 +1,18 @@
+//QNO5=Design A Method To Calculate The Area Of Square
+class MethodCalAreaSquare  
+{
+	public static void calAreaSquare(double side)
+	{
+		double area=side*side;
+		System.out.println("The Area OF Square Is:-"+area);
+	}
+	public static void main(String[] args) 
+	{
+		calAreaSquare(5);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>The Area OF Square Is:-25.0					*
+*************************************************/

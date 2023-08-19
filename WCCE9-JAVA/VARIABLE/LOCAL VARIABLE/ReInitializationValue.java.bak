@@ -1,0 +1,10 @@
+class ReInitializationValue
+{
+	public static void main(String[] args) 
+	{
+		int w=100;
+		System.out.println(w);//100
+		w=200;//ReInitilization Of Value For Same Varible
+		System.out.println(w);//200
+	}
+}

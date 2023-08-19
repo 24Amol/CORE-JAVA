@@ -1,0 +1,14 @@
+class P9 
+{
+	
+
+	{
+		P9 oP=new P9();
+		System.out.println("Non-Static Block");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

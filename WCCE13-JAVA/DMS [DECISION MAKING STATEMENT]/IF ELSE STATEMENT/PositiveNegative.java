@@ -1,0 +1,21 @@
+//Write A Program To Check Given Number Is Positive Or Negative Using If Else Statement
+
+class PositiveNegative 
+{
+	public static void main(String[] args) 
+	{	
+		int num=5;
+		if (num>0)
+		{
+			System.out.println(num+":-Number Is Positive!");
+		}
+		else
+		{
+			System.out.println(num+":-Number Is Neagtive!");
+		}
+	}
+}
+
+/***********************OUTPUT***********************/
+//5:-Number Is Positive!							*
+/****************************************************/

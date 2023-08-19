@@ -1,0 +1,15 @@
+//QNO8:-Write A Program To Convert The Char To Char
+class CharToChar 
+{
+	public static void main(String[] args) 
+	{
+		char a='a';
+		char b=a;
+		System.out.println(b);
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>a								*
+*************************************/

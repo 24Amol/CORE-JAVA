@@ -1,0 +1,18 @@
+// contains() METHOD
+import java.util.ArrayList;
+
+class ArraListContains
+{
+	public static void main(String[] args) 
+	{
+		ArrayList oA=new ArrayList();
+		
+		System.out.println(oA);
+
+		oA.add("Jawa");
+		oA.add("Pulsar");
+		oA.add("Ninja");
+
+		System.out.println(oA.contains("Jawa"));
+	}
+}

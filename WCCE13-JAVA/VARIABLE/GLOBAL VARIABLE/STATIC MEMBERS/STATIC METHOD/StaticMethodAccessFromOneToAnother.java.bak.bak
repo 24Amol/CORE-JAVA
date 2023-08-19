@@ -1,0 +1,14 @@
+//QNO1=Can We declare a local variable inside a static block
+
+class StaticMethodAccessFromOneToAnother
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Addition Is:-"+StaticMethodAddition.add(3,5));
+	}
+}
+/********************************************
+--------------->>>>>OUTPUT>>>>--------------*
+*********************************************
+-->>8										*
+*********************************************/

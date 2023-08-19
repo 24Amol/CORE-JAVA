@@ -1,0 +1,29 @@
+//QNO4:-Can We Perform Increment Operator For Boolean Datatype
+class IncrementBoolean
+{
+	public static void main(String[] args) 
+	{
+		boolean str=true;
+		boolean str1=str++;
+		System.out.println(str);
+		System.out.println(str1);
+	}
+}
+/*********************************************************************************
+------------------------->>>>>>>>>>>>>OUTPUT>>>>>>>>>>>>>>>>>>>------------------*
+**********************************************************************************
+-->>IncrementString.java:7: error: bad operand type String for unary operator '++'
+                String str1=str++;
+                               ^
+-->>IncrementString.java:8: error: cannot find symbol
+                STring str2=++str1;
+                ^
+  symbol:   class STring
+  location: class IncrementString
+
+
+-->>IncrementString.java:8: error: bad operand type String for unary operator '++'
+                STring str2=++str1;
+                            ^
+3 errors
+*************************************************************************************/

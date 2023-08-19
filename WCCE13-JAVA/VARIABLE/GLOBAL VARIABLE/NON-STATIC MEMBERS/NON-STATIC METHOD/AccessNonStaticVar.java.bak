@@ -1,0 +1,20 @@
+//QNO1= Can We Access the Non Static Variable From the Non-Static Method
+class AccessNonStaticVar
+{
+	int a=10;
+	int b=20;
+
+	void display()
+	{
+		System.out.println(a);
+		this.b=35;
+		System.out.println(b);
+	}
+
+	public static void main(String[] args) 
+	{
+		AccessNonStaticVar oANSV=new AccessNonStaticVar();
+		oANSV.display();
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,30 @@
+//QNO5:-Write A Program Without Break Keyword In Switch Statement
+
+class WithoutBreak
+{
+	public static void main(String[] args) 
+	{
+		int n=2;
+
+		switch (n%2)
+		{
+			case 0:{
+					System.out.println("Even");//true It Printed Even			
+			}
+			case 1:{
+					System.out.println("Odd");//Compiler Follows Line By Line Execution			
+			}
+		}
+		System.out.println("Hello World!");//It Printed The Printing statement
+	}
+}
+
+//If The Switch Value Is Matches With Its case Value It Printed The That Case 0 Statement
+//The Compiler Started The Execution Of Below Line
+//Because If Its True It fallows Line By Line Execution
+
+/*******************OUTPUT*******************/
+//Even										*
+//Odd										*
+//Hello World								*
+/********************************************/

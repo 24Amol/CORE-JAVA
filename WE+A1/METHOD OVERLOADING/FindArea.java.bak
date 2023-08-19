@@ -1,0 +1,58 @@
+import java.util.Scanner;
+class FindArea
+{
+	public static void circleArea(double radius)
+	{
+		double dArea=3.14*radius*radius;
+		System.out.println("The Area Of Circle Is:-"+dArea);
+	}
+
+	public static void squareArea(double side)
+	{
+		double dArea=side*side;
+		System.out.println("The Area Of Square Is:-"+dArea);
+	}
+	public static void rectangleArea(double length,double width)
+	{
+		double dArea=length*width;
+		System.out.println("The Area Of Rectangle Is:-"+dArea);
+	}
+
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter Your Choice:- \n C:-Find The Area Of Circle \n S:-Find The Area Of Square \n R:-Find The Area Of Rectangle");
+		char ch=sc.next().charAt(0);
+
+		switch (ch)
+		{
+			case 'c' :{
+				System.out.println("You Have Choose Area Of Circle");
+				System.out.print("Enter The Radius:-");
+				double radius=sc.nextDouble();
+				circleArea(radius);
+				break;
+			}
+			case 's':{
+				System.out.println("You Have Choose Area Of Square");
+				System.out.print("Enter The Side:-");
+				double side=sc.nextInt();
+				squareArea(side);
+				break;
+			}
+			case 'r':{
+				System.out.println("You Have Choose Area Of Rectangle");
+				System.out.print("Enter The Lenght:-");
+				double length=sc.nextDouble();
+
+				System.out.print("Enter The Width:-");
+				int width=sc.nextInt();
+				rectangleArea(length,width);
+			}
+			default :
+				System.out.println("You Have Entered The Wrong Choice");
+		}
+	}
+
+	
+}

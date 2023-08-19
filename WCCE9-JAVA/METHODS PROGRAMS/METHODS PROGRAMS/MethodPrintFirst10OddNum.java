@@ -1,0 +1,33 @@
+//QNO13:-Write A Program To Print First 10 Odd Numbers
+class MethodPrintFirst10OddNum
+{
+	public static void odd(int i,int j)
+	{
+		while(i<=j)
+		{
+			if(i%2==1)
+			{
+				System.out.println(i);
+			}
+			i++;
+		}
+	}
+	public static void main(String[] args) 
+	{
+		odd(0,20);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>1											*
+-->>3											*
+-->>5											*
+-->>7											*
+-->>9											*
+-->>11											*
+-->>13											*
+-->>15											*
+-->>17											*
+-->>19											*
+*************************************************/

@@ -1,0 +1,30 @@
+class Calculator 
+{
+	public static double add(double a, double b)
+	{
+		double res=a+b;
+		return res;
+	}
+	public static double sub(double a, double b)
+	{
+		double res=a-b;
+		return res;
+	}
+	public static int mul(int a, int b)
+	{
+		int res=a*b;
+		return res;
+	}
+	public static int div(int a, int b)
+	{
+		int res=a/b;
+		return res;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Addition:"+" "+add(5,4));
+		System.out.println("Subtraction:"+" "+sub(565.6,567));
+		System.out.println("Multiplication:"+" "+mul(6,5));
+		System.out.println("Division:"+" "+div(4,12));
+	}
+}

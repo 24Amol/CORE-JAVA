@@ -1,0 +1,19 @@
+class OutterClass
+{
+	int a=10;
+
+	class InnerClass
+	{
+		int b=20;
+	}
+}
+class MainDriver
+{
+	public static void main(String[] args) 
+	{
+		OutterClass outer=new OutterClass();
+		OutterClass.InnerClass inner=outer.new InnerClass();
+
+		System.out.println(outer.a+inner.b);
+	}
+}
